@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    border: 1px solid #f2f2f2;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url("../images/banner3.png");
+    background-repeat:no-repeat;
+    background-size: 100% 180px  ;
+    border: 1px solid #f2f2f2;
+    height: 180px;
+    width: 100%;
+}
+
+.menu {
+    border: 1px solid #e7f0d4;
+    background: #bab6b6;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+}
+ul.list_menu {
+    padding: 0;
+    /* margin: 0; */
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 27px;
+}
+ul.list_menu li:hover {
+    background: rgb(189, 209, 239);
+}
+ul.list_menu li {
+    float: left;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 6px;
+}
+ul.list_menu li a {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none
+}
+#main {
+    border: 1px solid #6a5db0;
+    width: 100%;
+    height: auto;
+}
+.sidebar {
+    background: #eeeedc;
+    border: 1px solid #f8f8f9;
+    width: 20%;
+    height: 370px;
+    margin-top: 1px;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+ul.list_sidebar {
+    padding: 0; 
+    list-style: none;
+    width: 100%;
+    line-height: 27px;
+}
+ul.list_sidebar li:hover {
+    background: rgb(196, 196, 173);
+}
+ul.list_sidebar li {
+    border: 1px solid #193084;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 6px;
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: #211789;
+    display: block;
+    font-size: 17px;
+}
+.maincontent {
+    border: 1px solid #e7f1ce;
+    width: 79.5%;
+    height: auto;
+    margin-top: 1px;
+    margin-left: 1px;
+    float: right;
+    border-radius: 6px;
+    background: #f5f8e8;
+
+}
+ul.list_product {
+    padding: 0; 
+    list-style: none;
+    width: 100%;
+    margin: 0;
+}
+ul.list_product li {
+    width: 18.5%;
+    border: 1px dashed #faf7f7;
+    margin: 5px;
+    float: left;
+    background: #f2f2f2;
+    height: 290px;
+}
+ul.list_product li a {
+    text-decoration: none;
+}
+ul.list_product li img {
+    width: 100%;
+    height: 155px; /* Chiều cao cố định cho tất cả ảnh */
+    object-fit: cover; /* Giữ tỷ lệ ảnh và tránh méo */
+}
+
+p.price_product{
+    text-align:center;
+    color: rgb(202, 34, 34);
+    font-size: 16px;
+    font-weight:200;
+}
+p.tilte_product{
+    text-align:left;
+    color: black;
+    font-size: 16px;
+    font-weight:200;
+}
+.button_group {
+    margin-left: 4px; /* Điều chỉnh giá trị này để thay đổi khoảng cách */
+}
+
+.btn_buy,
+.btn_add_to_cart { 
+    border: none ;
+    margin-left: 5px;
+    cursor: pointer;
+    background: rgb(240, 43, 25);
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+button.btn_tv {
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+    background: rgb(240, 43, 25);
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+.footer {
+    border: 1px solid #9daed6;
+    background: #cfe3f1;
+    color: white;
+    height: 150px;
+    width: 100%;
+    border-radius: 6px;
+}
+p.footer_coppyright {
+    text-align: center;
+    color: rgb(62, 65, 219);
+    font-size:large;  
+}
+.dangky {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.dangky table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dangky tr {
+    margin-bottom: 15px;
+}
+
+.dangky td {
+    padding: 8px;
+}
+
+.dangky input[type="text"], .dangky input[type="submit"] {
+    width: 96%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.dangky input[type="submit"] {
+    background-color: #3cbd3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dangky input[type="submit"]:hover {
+    background-color: #50bc50;
+}
+
+.dangky a {
+    text-decoration: none;
+    color: #1d5897;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.dangky a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
+    color: #292626;
+}
+.table-login {
+    background-color: rgb(231, 244, 248); /* White background for the table */
+    margin: 50px auto; /* Center the table with margin */
+    padding: 20px; /* Add padding */
+    width: 300px; /* Fixed width for the form */
+}
+
+.table-login h3 {
+    color: #333; /* Dark text color */
+    text-align: center;
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.table-login td {
+    padding: 1px; /* Space within table cells */
+}
+
+.table-login input[type="text"], 
+.table-login input[type="password"]
+ {
+    width: 92%; /* Full width */
+    padding: 8px; /* Padding inside input fields */
+    border: 1px solid #727070; /* Light border */
+    border-radius: 5px; /* Rounded corners for input fields */
+    font-size: 16px; /* Font size */
+}
+
+.table-login input[type="submit"] {
+    background-color: #3f5cec; /* Primary button color */
+    width: auto; /* Set width to auto for a smaller button */
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 90px;
+    color: white; /* White text for button */
+    border: none; /* No border for button */
+    cursor: pointer; /* Pointer cursor for button */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.table-login input[type="submit"]:hover {
+    background-color: #0252a7; /* Darker blue on hover */
+}
+
+.error-message {
+    color: red; /* Red text for error messages */
+    text-align: center; /* Center the error message */
+    margin-top: 10px; /* Space above the error message */
+}
+.chatbox {
+    display: none; /* Ẩn chatbox ban đầu */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.chatbox-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.messages {
+    max-height: 200px;
+    overflow-y: auto;
+    margin: 10px 0;
+}
+
+.message {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.message.user {
+    background-color: #d1e7dd;
+    text-align: right;
+}
+
+.message.stylist {
+    background-color: #f8d7da;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.input-group button {
+    padding: 5px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+h4#product_title {
+    margin-left: 50px;
+    margin-top: 320px;
+    font-size: 20px;
+}
+p#product_price {
+    margin-right: 750px;
+}
+h5#mota {
+    font-size: medium;
+}
+.clear {
+    clear: both;
+}
